@@ -1,0 +1,43 @@
+/*
+Copyright 2017 Dora Tomljenovic <dxt5777>.
+#Project 1
+
+Created on : Oct 2, 2017, 3:36:20 PM
+Author     : Dora Tomljenovic
+
+CSS file for grid system
+*/
+
+.col-1 {width: 8%; }
+.col-2 {width: 17%; }
+.col-3 {width: 25%; }
+.col-4 {width: 33%; }
+.col-5 {width: 42%; }
+.col-6 {width: 50%; }
+.col-7 {width: 58%; }
+.col-8 {width: 67%; }
+.col-9 {width: 75%; }
+.col-10 {width: 83%; }
+.col-11 {width: 92%; }
+.col-12 {width: 100%; }
+
+[class*="col-"]{
+    
+    float: left;
+    padding: 20px 0px;     
+}
+
+.row{
+    
+    width: 100%;
+    margin: 2.3em auto;   
+}
+
+.row::after{
+    
+    content: "";
+    display: block;
+    clear: both;  
+}
+
+

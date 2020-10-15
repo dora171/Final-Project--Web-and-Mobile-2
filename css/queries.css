@@ -1,0 +1,318 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 27, 2017, 7:20:32 PM
+    Author     : dxt5777
+*/
+@media screen and (max-width: 1200px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+
+    h1.food-venice{
+
+        padding-top: 40%;
+    }
+
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+        font-size: 100%;
+    }
+}
+@media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
+}
+@media only screen and (max-width: 500px){
+
+    body{
+
+        font-size: 14pt;
+    } 
+
+    #home-about {
+
+        background-size: cover;    
+    }
+
+    #description-about{
+
+        width: 250px;
+        height: 130px;
+    }
+
+    #description-about2{
+
+        width: 250px;
+        height: 200px;
+        padding-bottom: 25px;
+        margin: 25px auto 0px auto;
+    }
+
+    h1{
+        font-size: 120%;
+    }
+
+    h2.ven{
+
+        font-size: 110%;
+    }
+
+    h1.historytitle{
+
+        padding-bottom: 10%;
+        padding-top: 20%;
+    }
+
+    p.historyvenice{
+
+        padding-left: 5%;
+        padding-right: 5%;
+        margin-top: -9%;
+    }
+    #past-picture img{
+
+        width: 100%;
+        height: 100%;
+        padding-left: 0%;
+    }   
+    #section-user{
+
+        width: 100%;
+    }    
+
+    p.photos{
+
+        padding-left: 5%;
+        padding-right: 5%;
+        margin-top: -0%;   
+    }
+
+    p.venicefood{
+
+        padding-left: 5%;
+        padding-right: 5%;
+        margin-top: -8%;
+    }
+
+    h1.art-title{
+
+        padding-bottom: 10%;
+        margin-top: -10%;
+        text-align: center;
+    }
+
+    p.art-venice{
+
+        margin-left: 0;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    h1.music-title{
+
+        padding-bottom: 10%;
+        margin-top: -10%;
+        text-align: center;
+    }
+
+    p.music{
+
+        margin-left: 0;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    /*   */
+    .hero-text-box h1{
+
+        padding-top: 35%;
+    }
+
+
+    h1.festival-title{
+
+        text-align: center;
+    }
+
+    p.festival-history{
+
+        margin-left: 0;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    h1.map-title{
+
+        padding-bottom: 5%;
+    }
+
+    p.maps{
+
+        padding-left: 5%;
+        padding-right: 5%;
+        margin-top: -5%;   
+    }
+
+    h1.people-venice{
+
+        padding-bottom: 10%;
+        text-align: center;
+        padding-top: 15%;
+    }
+
+    h1.photos-title{
+
+        padding-top: 25%;
+    }
+
+    p.people-description, p.architecture-information{
+
+        padding-left: 5%;
+        padding-right: 5%;
+        margin-top: -9%;
+    }
+
+    #venice-bar img{
+
+        width: 100%;
+        height: 100%;
+        padding-left: 0%;
+    }
+
+    h1.architecture-title{
+
+        padding-left: 0;
+        text-align: center;
+        padding-bottom: 10%;
+        padding-top: 18%;
+    }
+
+    #venice-basilica img{
+
+        width: 100%;
+        height: 100%;
+        padding-left: 0%;
+    }
+
+    footer{
+
+        font-size: 10pt;
+    }
+
+    p{
+
+        font-size: 115%;
+    }
+
+    h1.references{
+
+        margin-top: 2%;
+        text-align: center;
+    } 
+
+    h1.rubrics-title{
+
+        margin-top: -2%;
+        text-align: center;
+    }
+
+    .rubrics-content{
+
+        font-size: 110%; 
+    }
+
+    h1.food-venice{
+
+        margin-top: 22%;
+        padding-left: 30%;
+    }
+
+    #str{
+
+        font-size: 200% !important;
+    }
+
+    #section-music img{
+        width: 100%;   
+    }
+
+    #section-art img{
+        width: 100%;   
+    }
+    #section-festival img{
+        width: 100%;   
+    }
+
+    #section-music, #section-art, #section-festival{
+
+        width: 100%;
+    }
+
+    #section-music .col-6{
+
+        width: 100%;
+    }
+
+    #section-art .col-6{
+
+        width: 100%;
+    }
+
+    #section-festival .col-6{
+
+        width: 100%;
+    }
+
+    #wrapper footer{
+        position: static;
+        bottom: 0px;
+    }
+
+    #home {
+
+        height: auto;
+        padding-bottom: 50px;
+
+    }
+    #section-food {
+        height: 60vh;
+    }
+
+    .global-container{
+
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    fieldset{
+
+        width: 89%;
+    }
+
+    form{
+
+        padding-top: 24%;
+    }
+
+    textarea{
+        
+        width: 95%;
+
+    }    
+}
+
+
